@@ -1,9 +1,24 @@
+<!DOCTYPE html>
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
+        <h1>Random Number Generator</h1>
+        <main>
+            <div id="number-container">
+                <p id="number">0</p>
+                <section id="input-section">
+                        <label for="min">min</label>
+                        <input id="min" type="number" placeholder="0">
+
+                        <label for="max">max</label>
+                        <input id="max" type="number" placeholder="0">
+                </section>
+            </div>
+        </main>
+        <button id="gen-btn">GENERATE</button>
         <script src="index.js"></script>
     </body>
 </html>
